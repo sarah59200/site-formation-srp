@@ -1,0 +1,41 @@
+
+body
+{
+  background-color: white;
+  margin:0px;
+  font-family: "avenirltstd-light",  Arial, Helvetica, sans-serif;
+}
+@font-face
+{
+  font-family: "avenirltstd-light"; 	src: url(C:\Users\Sarah\Documents\GitHub\evenementsrp\polices);/*chemin pour retrouver la police*/
+}
+#header
+{
+  height:150px; /*taille de la barre*/
+  background:  	#E1E1E1; /* couleur de la premiere barre du haut*/
+  background-image: url(https://static.media.showroomprive.com/v4/0/_img/logo_srp_baseline.png); /*logo showroomprive en haut de la page*/
+  background-repeat: no-repeat; /* pour que le logo ne ce repette pas*/
+  background-position: center; /* pour que le logo vien au ventre */
+}
+#header2
+{
+  height: 70px;
+  background: #ff3399;  /* sa ces la barre rose en haut du site*/
+}
+#header3
+{
+  height:500px;
+  background: white;  /* sa ces le morceau blanc au milieux de la page, taille a modifier selon le longueur de la pageS*/
+}
+
+.pink
+{
+  color: #ff3399;
+  font-size: 20px;
+}
+
+#header4
+{
+  height:80px;
+  background: #4B4C4E; /* sa ces le footer qui vien tout en bas de la page*/
+}
